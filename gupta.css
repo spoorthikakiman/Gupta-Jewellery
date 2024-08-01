@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(21, 21, 56, 0.932);
+    font-family: "Cinzel", serif;
+    
+    background-image: url(main1.jpg);
+    background-size: cover; 
+    background-repeat:space;
+    background-repeat:unset;
+    
+}
+
+  .heading{
+    font-size: 80px;
+    margin: 0%;
+    background-color: rgba(21, 21, 56, 0.932);
+    color: aliceblue;
+    padding-left:621px;
+    padding-right: 621px;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    margin-left: -50px;
+    margin-right: -50px;
+  } 
+  
+
+  #label_button{
+    margin-bottom: 515px;
+  }
+
+  #label_button.button{
+    gap: 200em;
+  }
+
+  .style_label:hover{
+    box-shadow:0px 0px 90px 0px rgb(164, 164, 172); ;
+    padding: 4px 38px;
+    background-color: rgba(49, 49, 128, 0.733); ;
+  }
+
+
+  #front_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .style_label{
+    border: 0cap; 
+    background-color:   rgba(21, 21, 56, 0.932);
+    color: #ffffff;
+    font-family:"Cinzel", serif ;
+    font-size: 23px;
+    margin: 10px;
+    padding: 5px 40px;
+    border-radius: 10px;
+  }
+
+  #contactus{
+    background-color: rgba(21, 21, 56, 0.932);
+    color: aliceblue;
+    padding: 100px 100px 10px 100px;
+    margin-left: -20px;
+    margin-right: -40px;
+    margin-bottom: -10px;
+    
+  }
+  #icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .updown{
+    display: flex;
+    gap: 3em;
+    margin-bottom: 40px;
+  }
+  
+  i:hover{
+    font-size:40px;
+    box-shadow: 0px 0px 50px 10px grey;
+  }
